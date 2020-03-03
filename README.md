@@ -7,4 +7,5 @@ As bonus points, we were to add addition functionality in the form of a quiz on 
 
 ## Status
 Country Review: *Complete*
+
 Flag Quiz: *In Progress*
