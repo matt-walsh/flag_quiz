@@ -1,0 +1,52 @@
+<!-- 
+    Project Title: Logic and Problem Solving Project
+    File: quiz.html
+    Author(s): Matt Walsh
+    Date Created: 2019-11-29
+    Description: Quiz page containing the quiz and high scores
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./css/quiz-layout.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Flag Quiz</title>
+    </head>
+    <body>
+        <h1>Flag Quiz</h1>
+        <div id="grid-container">
+            <div id="flag-container">
+                <img src="./flags/blank.png" alt="">
+            </div>
+            <div id="ui-container">
+                <fieldset>
+                    <legend>What countries flag is this?</legend>
+                    <div id="radio-questions">
+                        <!-- Questions go here -->
+                    </div>
+
+                </fieldset>
+                <div id="button-area">
+                    <button id="next-question">Next Question</button>
+                    <button id="previous-question" disabled>Prev. Question</button>
+                    <button id="submit-quiz">Submit</button>
+                </div>
+            </div>
+            <div id="high-score-container">
+                <table id="high-score-table">
+                    <tr>
+                        <th>Score</th>
+                        <th>Name</th>
+                        <th>Date</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <script src="./js/quiz.js"></script>
+    </body>
+</html>

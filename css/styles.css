@@ -1,0 +1,63 @@
+/*
+    Project Title: Logic and Problem Solving Project
+    File: styles.css
+    Author(s): Matt Walsh
+    Date Created: 2019-11-29
+    Description: Decorations for the elemnts of the web site
+*/
+
+body{
+    background-color: tan;
+}
+
+img, select{
+    width: 100%;
+}
+img{
+    min-width: 236px;
+    min-height: 156px;
+    
+}
+input[type="text"]{
+    width: 99%;
+
+}
+
+input:disabled{
+    background-color: white;
+    color: black;
+}
+
+/* Index.html Styles */
+#links{
+    padding-top: 10px;
+    text-align: center;
+}
+
+#links a{
+    color: whitesmoke;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#links a:hover{
+    color: whitesmoke;
+    background-color: rgb(138, 174, 240);
+}
+
+#links a:active{
+    color: cornflowerblue;
+    background-color: whitesmoke;
+}
+
+#wiki-link{
+    float: left;
+}
+
+#quiz-link{
+    float: right;
+}
+
+/* quiz.html Styles */

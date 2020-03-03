@@ -1,0 +1,42 @@
+/*
+    Project Title: Logic and Problem Solving Project
+    File: quiz-layout.css
+    Author(s): Matt Walsh
+    Date Created: 2019-11-29
+    Description: Quiz page layout file.
+*/
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#flag-container{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#ui-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#button-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+#high-score-container{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+#radio-questions{
+    display: flex;
+    flex-direction: column;
+}

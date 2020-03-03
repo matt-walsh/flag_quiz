@@ -1,0 +1,69 @@
+<!-- 
+    Project Title: Logic and Problem Solving Project
+    File: index.html
+    Author(s): Matt Walsh
+    Date Created: 2019-11-29
+    Description: Index page containing country information
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logic and Programming Project</title>
+    <link rel="stylesheet" href="./css/index-layout.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div id="site-container">
+        <section id="country-select">
+            <h1>Flag Quiz Study Page</h1>
+            <select id="country-list">
+                <option value="-1">Select a Country</option>
+                <!-- Countries Go Here -->
+            </select>
+        </section>
+        <section id="country-info">
+            <h2>Country Info: <span id="country-name"></span></h2>
+            <div id="image-container">
+                <img id="flag-image" src="./flags/blank.png" alt="Blank Flag">
+            </div>
+            <label for="population-display">
+                Population:
+                <input type="text" id="population-display" disabled>
+            </label>
+            <label for="area-select"></label>Area In:
+            <div>
+                <select id="area-select">
+                    <option value="km">Sq. Kilometers</option>
+                    <option value="mi">Sq. Miles</option>
+                </select>
+                <input type="text" id="area-display" disabled>
+            </div>
+            <fieldset>
+                <legend>Population Density</legend>
+                <label for="square-km">
+                    <input type="radio" name="density-select" id="square-km" checked="true">
+                    Per Square Km
+                </label>
+                
+                <label for="square-mile">
+                        <input type="radio" name="density-select" id="square-mile">
+                    Per Square Mile
+                </label>
+                <input type="text" id="population-density" disabled>
+            </fieldset>
+            <label for="population-percent">Percentage of World Population</label>
+            <input type="text" id="population-percent" disabled>
+            <div id="links">
+                <a href="#" id="wiki-link" target="_blank">Visit Wiki</a>
+                <a href="./quiz.html" id="quiz-link">Launch Quiz</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/countries.js" type=""></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/*
+    Project Title: Logic and Problem Solving Project
+    File: index-layout.css
+    Author(s): Matt Walsh
+    Date Created: 2019-11-29
+    Description: Index page layout file.
+*/
+#site-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+#country-select{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#country-info{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+input[type="text"], label{
+    display: block;
+}

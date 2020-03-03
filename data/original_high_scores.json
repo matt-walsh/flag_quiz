@@ -1,0 +1,27 @@
+[
+  {
+    "Score": 0,
+    "User": "ABC",
+    "Timestamp": "2017-01-01 12:00:00"
+  },
+  {
+    "Score": 0,
+    "User": "DEF",
+    "Timestamp": "2017-01-01 12:00:00"
+  },
+  {
+    "Score": 0,
+    "User": "GHI",
+    "Timestamp": "2017-01-01 12:00:00"
+  },
+  {
+    "Score": 0,
+    "User": "JKL",
+    "Timestamp": "2017-01-01 12:00:00"
+  },
+  {
+    "Score": 0,
+    "User": "MNO",
+    "Timestamp": "2017-01-01 12:00:00"
+  }
+]
